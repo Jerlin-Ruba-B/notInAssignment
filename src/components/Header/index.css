@@ -1,0 +1,125 @@
+.headerContainer {
+  display: flex;
+
+  align-items: center;
+  padding: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .headerContainer {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logoContainer {
+  margin-left: 35px;
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .logoContainer {
+    margin-left: 24px;
+  }
+}
+
+.logoSize {
+  width: 75px;
+  height: 55px;
+}
+
+.nameLogo {
+  width: 130px;
+  height: 55px;
+}
+
+@media screen and (max-width: 576px) {
+  .logoSize {
+    width: 55px;
+    height: 45px;
+  }
+
+  .nameLogo {
+    width: 80px;
+    height: 45px;
+  }
+}
+
+.linksContainer {
+  display: flex;
+  margin-left: 55px;
+}
+
+@media screen and (max-width: 576px) {
+  .linksContainer {
+    display: none;
+  }
+}
+
+.btnsContainer {
+  display: flex;
+  margin-left: 55px;
+  justify-content: space-between;
+  width: 520px;
+}
+
+@media screen and (max-width: 576px) {
+  .btnsContainer {
+    display: none;
+  }
+}
+
+.listItems {
+  list-style-type: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-right: 20px;
+}
+.Labs {
+  color: #138ed1;
+  font-weight: bold;
+  font-size: 16px;
+}
+.headerBtn {
+  background-color: #00486c;
+  border-width: 0px;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 22px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.playstroeBtn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.playStoreImg {
+  padding: 0px;
+}
+
+.hiddenIcons {
+  background-color: transparent;
+  border-width: 0px;
+  padding: 4px;
+  height: 124px;
+  display: flex;
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 577px) {
+  .hiddenIcons {
+    display: none;
+  }
+}
+
+.mobileViewTabsContainer {
+  background-color: rgb(253, 248, 248);
+  border-radius: 8px;
+}
+.newItems {
+  margin-top: 12px;
+}

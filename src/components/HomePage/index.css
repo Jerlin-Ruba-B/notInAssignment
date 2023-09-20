@@ -1,0 +1,382 @@
+.outerContainer {
+  width: 1440px;
+}
+
+.formAndImgContainer {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .formAndImgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.formHolder {
+  background-color: rgb(196, 229, 240);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.formContainer {
+  border-radius: 12px;
+  padding: 38px;
+  margin-left: 135px;
+  background-color: white;
+}
+.formHeading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+.iconAndInputContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+}
+.iconsImg {
+  width: 40px;
+  height: 25px;
+  margin-right: 12px;
+}
+.inputEl {
+  background-color: rgb(214, 204, 204);
+  height: 35px;
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 4px;
+  width: 280px;
+}
+.checkBoxLabel {
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 8px;
+}
+.spanMsg {
+  font-weight: bold;
+}
+.newCheck {
+  margin-left: 14px;
+}
+.imgsContainer {
+  margin-left: 120px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bookName {
+  height: 24px;
+}
+.labImg {
+  height: 445px;
+}
+.offerImg {
+  height: 40px;
+  margin-left: 54px;
+  margin-top: 12px;
+}
+.proceedBtn {
+  background-color: blue;
+  border-width: 0px;
+  border-radius: 6px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  width: 140px;
+  font-size: 16px;
+}
+.proceedBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.accrediationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 567px) {
+  .accrediationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
+
+.accreLogosAndLabel {
+  display: flex;
+  align-items: center;
+  margin-right: 124px;
+}
+.accName {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+.accLogo {
+  height: 45px;
+  margin-right: 12px;
+}
+.keepExpandingContainer {
+  margin-top: 80px;
+  text-align: center;
+}
+.keepExpandingTitle {
+  font-size: 35px;
+  font-weight: bold;
+}
+.spanKeepExpanding {
+  color: rgb(69, 196, 228);
+}
+.vector1 {
+  margin-left: 110px;
+  width: 120px;
+}
+.groupContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.cards {
+  background-color: rgb(54, 167, 233);
+  border-width: 0px;
+  border-radius: 12px;
+  padding: 4px;
+  width: 100px;
+  text-align: center;
+  margin-right: 84px;
+  height: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  .groupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+}
+
+.counts {
+  font-weight: bold;
+  color: white;
+}
+.names {
+  font-weight: 400;
+}
+.topPackagesContainer {
+  text-align: center;
+  margin-top: 54px;
+}
+.topPackageTitle {
+  font-size: 34px;
+}
+.spanTopPackage {
+  color: rgb(101, 182, 236);
+}
+.paraExplore {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(156, 151, 151);
+}
+.cardPackages {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  margin-left: 122px;
+}
+
+@media screen and (max-width: 576px) {
+  .cardPackages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.packageCards {
+  box-shadow: 1px 1px 1px 2px grey;
+  padding: 24px;
+  border-radius: 8px;
+  width: 270px;
+  text-align: left;
+  margin-right: 120px;
+}
+.cardTitle {
+  font-size: 18px;
+  font-family: 'Montserrat';
+}
+.ratingStarContainer {
+  display: flex;
+  align-items: center;
+}
+.rating {
+  font-weight: bold;
+  font-size: 16px;
+}
+.reviews {
+  color: #6e6e6e;
+  font-size: 16px;
+}
+.tests {
+  color: #2f2f2f;
+  font-size: 12px;
+  font-weight: bold;
+}
+.mrp {
+  color: #6e6e6e;
+  font-size: 12px;
+}
+.rejectedAmt {
+  text-decoration: line-through;
+}
+.bookNowBtn {
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 6px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(40, 121, 175);
+}
+.chooseUsCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.cardContainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chooseUsdiv {
+  padding: 14px;
+  width: 220px;
+  text-align: left;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 12px;
+  margin-bottom: 120px;
+  background-color: white;
+}
+
+@media screen and (max-width: 567px) {
+  .chooseUsdiv {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.new {
+  color: rgb(170, 163, 163);
+}
+.logoPosition {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media screen and (max-width: 576px) {
+  .logoPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.cardsLogonew {
+  height: 45px;
+}
+.cardContainer2 {
+  margin-top: 120px;
+  margin-left: 75px;
+}
+.footerContainer {
+  background-color: black;
+  padding: 12px;
+  display: flex;
+
+  align-items: flex-start;
+}
+.footerContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+.footerlogoSize {
+  width: 45px;
+  height: 25px;
+}
+.footerDesc {
+  color: white;
+  font-size: 12px;
+}
+.mobileContainer {
+  background-color: rgb(70, 67, 67);
+  border-radius: 8px;
+  border: 1px solid rgb(59, 56, 56);
+  display: flex;
+  align-items: flex-start;
+}
+.std {
+  color: white;
+}
+.noValue {
+  background-color: transparent;
+  border-width: 0px;
+}
+.mobilepic {
+  padding: 16px;
+  background-color: rgb(7, 7, 173);
+  border-width: 0px;
+}
+.footerContainer2 {
+  margin-left: 64px;
+}
+.footerTitle {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin-left: 44px;
+}
+.listItemsFooter {
+  list-style-type: none;
+  margin-top: 24px;
+  color: white;
+  font-size: 12px;
+  margin-left: 4px;
+}
+.horizontalLine {
+  width: 1420px;
+  background-color: white;
+}
+
+.footer {
+  background-color: black;
+}
+.copyRights {
+  display: flex;
+  align-items: center;
+}
+.copy {
+  color: white;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.copyRights {
+  margin-left: 24px;
+}
